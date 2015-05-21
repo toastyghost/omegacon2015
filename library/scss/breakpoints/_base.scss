@@ -226,6 +226,12 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 
+.nav > li {
+	@for $n from 1 through length($retro-colors) {
+		@include menu-color($n, nth($retro-colors, $n));
+	}
+}
+
 .nav {
 	font-family: $press_start_2p;
 	font-size: .85rem;
@@ -234,10 +240,6 @@ and more scalable.
 	border-bottom: 0;
 
 	li {
-		@for $n from 1 through length($retro-colors) {
-			@include menu-color($n, nth($retro-colors, $n));
-		}
-
 		a {
 			display: inline-block;
 			background-color: $white;
@@ -362,9 +364,21 @@ POSTS & CONTENT STYLES
 		.post-id {}         /* post by id (i.e. post-3) */
 		.post,
 		.type-page {
-			background-color: #1d1d1d;
+			//background-color: #1d1d1d;
+			background-clip: padding-box;
 			border: none;
-		}            /* general post style */
+		}
+		
+		.post:nth-child(1n),
+		.type-page:nth-child(1n) {
+			background: #1d1d1d url('../images/flare1.png') top -50px left -50px no-repeat;
+		}
+
+		.post:nth-child(2n),
+		.type-page:nth-child(2n) {
+			background: #1d1d1d url('../images/flare2.png') top -50px right -50px no-repeat;
+		}
+
 		.page {}            /* general article on a page style */
 		.attachment {}      /* general style on an attatchment */
 		.sticky {}          /* sticky post style */
@@ -918,11 +932,11 @@ SIDEBARS & ASIDES
 
 	}
 
+	.widget,
 	.no-widgets {
-		background-color: $white;
+		background-color: #1d1d1d;
 		padding: 1.5em;
 		text-align: center;
-		border: 1px solid $border-color;
 		border-radius: 2px;
 		margin-bottom: 1.5em;
 	}

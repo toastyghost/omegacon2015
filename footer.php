@@ -2,6 +2,8 @@
 
 				<div id="inner-footer" class="wrap cf">
 
+					<div id="al"></div>
+
 					<nav role="navigation">
 						<?php wp_nav_menu(array(
     					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
@@ -18,7 +20,9 @@
 						)); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+					<!--<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>-->
+
+					<div id="meg"></div>
 
 				</div>
 

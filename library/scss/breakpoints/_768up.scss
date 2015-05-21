@@ -142,9 +142,7 @@ NAVIGATION STYLES
 SIDEBARS & ASIDES
 *********************/
 
-.sidebar {
-	margin-top: 2.2em;
-}
+.sidebar {}
 
 	.widgettitle {
 		border-bottom: 2px solid #444;
@@ -270,6 +268,20 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
+
+.footer {
+	padding-top: 65px;
+	background: url('../images/checkerboard.png') bottom center no-repeat;
+	background-size: 100% 106px;
+
+	#inner-footer {
+		min-height: 280px;
+		background-image: url('../images/AlLA.png'), url('../images/MegLA.png');
+		background-position: bottom 20px left, bottom 20px right;
+		background-repeat: no-repeat;
+	}
+}
+
 .footer-links {
 	ul {
 		li {
