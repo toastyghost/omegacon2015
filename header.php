@@ -59,14 +59,18 @@
 						</div>
 						
 						<div id="whenwhere">
-							<span id="dates">
+							<div id="dates">
 								August<br>
 								28-30, 2015<br>
-							</span>
-							<span id="venue">
+							</div>
+							<div id="venue">
 								John Paul Jones<br>Arena<br>
 								Charlottesville, VA
-							</span>
+							</div>
+							<div id="cta-menu">
+								<a id="register-cta" class="cta-link" href="/register">Register</a>
+								<a id="volunteer-cta" class="cta-link" href="/volunteer">Volunteer</a>
+							</div>
 						</div>
 					</div>
 

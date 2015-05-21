@@ -171,17 +171,45 @@ HEADER STYLES
 		#whenwhere {
 			display: block;
 			font-family: 'Press Start 2P';
-			line-height: 0.7em;
+			//line-height: 0.7em;
 			letter-spacing: 0;
 			color: #fff;
 
 			#dates {
 				font-size: 1.45rem;
+				line-height: 2.25rem;
 			}
 
 			#venue {
 				font-size: .9rem;
-				line-height: 0.5em;
+				line-height: 1.333rem;
+			}
+
+			#cta-menu {
+				font-size: 12px;
+
+				.cta-link {
+					padding: 7px;
+					border-radius: 7px;
+
+					&#register-cta {
+						background-color: #ea1409;
+
+						&:hover,
+						&:active {
+							background-color: lighten(#ea1409, 9%);
+						}
+					}
+
+					&#volunteer-cta {
+						background-color: #293f92;
+						
+						&:hover,
+						&:active {
+							background-color: lighten(#293f92, 9%);
+						}
+					}
+				}
 			}
 		}
 	}
@@ -225,9 +253,7 @@ and more scalable.
 			the style.scss file where it's relevant. We want to
 			keep this file as small as possible!
 			*/
-			&:hover, &:focus {
-
-			}
+			&:hover, &:focus {}
 		}
 
 		&:first-child {}
@@ -243,10 +269,16 @@ and more scalable.
 		*/
 		ul.sub-menu,
 		ul.children {
+			margin-top: -10px;
+			margin-left: 25px;
 
 			li {
+				border: none;
+				background: transparent;
 
 				a {
+					margin: 0;
+					border-radius: 0;
 					padding-left: 30px;
 
 					&:hover,
@@ -265,6 +297,12 @@ and more scalable.
 		}
 
 	} /* end .menu li */
+
+	li.menu-item-has-children > a {
+		&:hover, &:focus {
+			//border-bottom-right-radius: 0;
+		}
+	}
 
 	/* highlight current page */
 	li.current-menu-item,
@@ -293,13 +331,11 @@ POSTS & CONTENT STYLES
 			border: 1px solid $border-color;
 
 			header {
-				border-bottom: 1px solid $light-gray;
 				padding: 1.5em;
 			}
 
 			footer {
 				padding: 1.5em;
-				border-top: 1px solid $light-gray;
 
 				p {
 					margin: 0;
@@ -324,7 +360,11 @@ POSTS & CONTENT STYLES
 
 		/* want to style individual post classes? Booya! */
 		.post-id {}         /* post by id (i.e. post-3) */
-		.post {}            /* general post style */
+		.post,
+		.type-page {
+			background-color: #1d1d1d;
+			border: none;
+		}            /* general post style */
 		.page {}            /* general article on a page style */
 		.attachment {}      /* general style on an attatchment */
 		.sticky {}          /* sticky post style */
