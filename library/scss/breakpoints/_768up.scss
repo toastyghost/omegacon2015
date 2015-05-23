@@ -166,12 +166,6 @@ NAVIGATION STYLES
 	}
 }
 
-.widget {
-	margin-bottom: 14px;
-	padding-top: 6px;
-	padding-bottom: 14px;
-}
-
 .article-header {
 	margin-left: 67px;
 }
@@ -202,8 +196,9 @@ SIDEBARS & ASIDES
 	}
 
 	.widget {
-		padding: 0 10px;
-		margin: 0;
+		margin-bottom: 14px;
+		padding-top: 6px;
+		padding-bottom: 14px;
 
 		ul {
 			li {

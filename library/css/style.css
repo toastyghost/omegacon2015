@@ -2563,29 +2563,22 @@ you can add resource intensive styles.
   }
 
   /* line 169, ../scss/breakpoints/_768up.scss */
-  .widget {
-    margin-bottom: 14px;
-    padding-top: 6px;
-    padding-bottom: 14px;
-  }
-
-  /* line 175, ../scss/breakpoints/_768up.scss */
   .article-header {
     margin-left: 67px;
   }
 
-  /* line 179, ../scss/breakpoints/_768up.scss */
+  /* line 173, ../scss/breakpoints/_768up.scss */
   .byline {
     display: none;
   }
 
-  /* line 183, ../scss/breakpoints/_768up.scss */
+  /* line 177, ../scss/breakpoints/_768up.scss */
   .post:nth-child(1n),
   .type-page:nth-child(1n) {
     background: #1d1d1d url("../images/flare1.png") top 10px left 10px no-repeat;
   }
 
-  /* line 188, ../scss/breakpoints/_768up.scss */
+  /* line 182, ../scss/breakpoints/_768up.scss */
   .post:nth-child(2n),
   .type-page:nth-child(2n) {
     background: #1d1d1d url("../images/flare2.png") top 10px right 10px no-repeat;
@@ -2594,23 +2587,24 @@ you can add resource intensive styles.
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 199, ../scss/breakpoints/_768up.scss */
+  /* line 193, ../scss/breakpoints/_768up.scss */
   .widgettitle {
     border-bottom: 2px solid #444;
     margin-bottom: 0.75em;
   }
 
-  /* line 204, ../scss/breakpoints/_768up.scss */
+  /* line 198, ../scss/breakpoints/_768up.scss */
   .widget {
-    padding: 0 10px;
-    margin: 0;
+    margin-bottom: 14px;
+    padding-top: 6px;
+    padding-bottom: 14px;
   }
-  /* line 209, ../scss/breakpoints/_768up.scss */
+  /* line 204, ../scss/breakpoints/_768up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 217, ../scss/breakpoints/_768up.scss */
+  /* line 212, ../scss/breakpoints/_768up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -2635,13 +2629,13 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 324, ../scss/breakpoints/_768up.scss */
+  /* line 319, ../scss/breakpoints/_768up.scss */
   .footer {
     padding-top: 0;
     background: url("../images/checkerboard.png") bottom center no-repeat;
     background-size: 100% 106px;
   }
-  /* line 329, ../scss/breakpoints/_768up.scss */
+  /* line 324, ../scss/breakpoints/_768up.scss */
   .footer #inner-footer {
     min-height: 280px;
     background-image: url("../images/AlLA.png"), url("../images/MegLA.png");
@@ -2649,7 +2643,7 @@ you can add resource intensive styles.
     background-repeat: no-repeat;
   }
 
-  /* line 339, ../scss/breakpoints/_768up.scss */
+  /* line 334, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
