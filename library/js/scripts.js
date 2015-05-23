@@ -116,5 +116,14 @@ jQuery(document).ready(function($) {
   */
   loadGravatars();
 
+var $ = jQuery,
+    $register_cta = $('#register-cta');
+
+setInterval(function() {
+  $register_cta.animate({'text-stroke': 1}, 500, function() {
+    $register_cta.animate({'text-stroke': 0}, 500);
+  });
+}, 1000);
+
 
 }); /* end of as page load scripts */
