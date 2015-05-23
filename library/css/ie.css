@@ -466,17 +466,15 @@ SIDEBARS & ASIDES
 /* line 198, ../scss/breakpoints/_768up.scss */
 .widget {
   margin: 0;
-  padding: 0;
+  padding: 6px 12px 14px;
   margin-bottom: 14px;
-  padding-top: 6px;
-  padding-bottom: 14px;
 }
-/* line 206, ../scss/breakpoints/_768up.scss */
+/* line 204, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 214, ../scss/breakpoints/_768up.scss */
+/* line 212, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -501,13 +499,13 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 321, ../scss/breakpoints/_768up.scss */
+/* line 319, ../scss/breakpoints/_768up.scss */
 .footer {
   padding-top: 0;
   background: url("../images/checkerboard.png") bottom center no-repeat;
   background-size: 100% 106px;
 }
-/* line 326, ../scss/breakpoints/_768up.scss */
+/* line 324, ../scss/breakpoints/_768up.scss */
 .footer #inner-footer {
   min-height: 280px;
   background-image: url("../images/AlLA.png"), url("../images/MegLA.png");
@@ -515,7 +513,7 @@ mobile. Make sure to double check these!
   background-repeat: no-repeat;
 }
 
-/* line 336, ../scss/breakpoints/_768up.scss */
+/* line 334, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
