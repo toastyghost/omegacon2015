@@ -381,15 +381,16 @@ NAVIGATION STYLES
 .no-widgets {
   font-family: 'Open Sans', sans-serif;
   color: white;
+  text-align: left;
 }
-/* line 149, ../scss/breakpoints/_768up.scss */
+/* line 150, ../scss/breakpoints/_768up.scss */
 .post a,
 .type-page a,
 .widget a,
 .no-widgets a {
   color: #8e9ac4;
 }
-/* line 153, ../scss/breakpoints/_768up.scss */
+/* line 154, ../scss/breakpoints/_768up.scss */
 .post a:hover,
 .post a:active,
 .type-page a:hover,
@@ -400,7 +401,7 @@ NAVIGATION STYLES
 .no-widgets a:active {
   color: #d1d6e7;
 }
-/* line 158, ../scss/breakpoints/_768up.scss */
+/* line 159, ../scss/breakpoints/_768up.scss */
 .post h1, .post h2, .post h3, .post h4, .post h5, .post h6,
 .type-page h1,
 .type-page h2,
@@ -422,24 +423,31 @@ NAVIGATION STYLES
 .no-widgets h6 {
   font-weight: bold;
 }
-
 /* line 163, ../scss/breakpoints/_768up.scss */
+.post .widgettitle,
+.type-page .widgettitle,
+.widget .widgettitle,
+.no-widgets .widgettitle {
+  font-size: 28px;
+}
+
+/* line 168, ../scss/breakpoints/_768up.scss */
 .article-header {
   margin-left: 67px;
 }
 
-/* line 167, ../scss/breakpoints/_768up.scss */
+/* line 172, ../scss/breakpoints/_768up.scss */
 .byline {
   display: none;
 }
 
-/* line 171, ../scss/breakpoints/_768up.scss */
+/* line 176, ../scss/breakpoints/_768up.scss */
 .post:nth-child(1n),
 .type-page:nth-child(1n) {
   background: #1d1d1d url("../images/flare1.png") top 10px left 10px no-repeat;
 }
 
-/* line 176, ../scss/breakpoints/_768up.scss */
+/* line 181, ../scss/breakpoints/_768up.scss */
 .post:nth-child(2n),
 .type-page:nth-child(2n) {
   background: #1d1d1d url("../images/flare2.png") top 10px right 10px no-repeat;
@@ -448,23 +456,23 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 187, ../scss/breakpoints/_768up.scss */
+/* line 192, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 192, ../scss/breakpoints/_768up.scss */
+/* line 197, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
-  margin: 2.2em 0;
+  margin: 0;
 }
-/* line 197, ../scss/breakpoints/_768up.scss */
+/* line 202, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 205, ../scss/breakpoints/_768up.scss */
+/* line 210, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -489,13 +497,13 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 312, ../scss/breakpoints/_768up.scss */
+/* line 317, ../scss/breakpoints/_768up.scss */
 .footer {
   padding-top: 0;
   background: url("../images/checkerboard.png") bottom center no-repeat;
   background-size: 100% 106px;
 }
-/* line 317, ../scss/breakpoints/_768up.scss */
+/* line 322, ../scss/breakpoints/_768up.scss */
 .footer #inner-footer {
   min-height: 280px;
   background-image: url("../images/AlLA.png"), url("../images/MegLA.png");
@@ -503,7 +511,7 @@ mobile. Make sure to double check these!
   background-repeat: no-repeat;
 }
 
-/* line 327, ../scss/breakpoints/_768up.scss */
+/* line 332, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

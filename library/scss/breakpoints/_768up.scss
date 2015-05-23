@@ -145,6 +145,7 @@ NAVIGATION STYLES
 .no-widgets {
 	font-family: 'Open Sans', sans-serif;
 	color: white;
+	text-align: left;
 
 	a {
 		color: darken(#d1d6e7, 20%);
@@ -157,6 +158,10 @@ NAVIGATION STYLES
 
 	h1,h2,h3,h4,h5,h6 {
 		font-weight: bold;
+	}
+
+	.widgettitle {
+		font-size: 28px;
 	}
 }
 
@@ -191,7 +196,7 @@ SIDEBARS & ASIDES
 
 	.widget {
 		padding: 0 10px;
-		margin: 2.2em 0;
+		margin: 0;
 
 		ul {
 			li {
