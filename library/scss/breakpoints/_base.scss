@@ -364,19 +364,8 @@ POSTS & CONTENT STYLES
 		.post-id {}         /* post by id (i.e. post-3) */
 		.post,
 		.type-page {
-			//background-color: #1d1d1d;
 			background-clip: padding-box;
 			border: none;
-		}
-		
-		.post:nth-child(1n),
-		.type-page:nth-child(1n) {
-			background: #1d1d1d url('../images/flare1.png') top -50px left -50px no-repeat;
-		}
-
-		.post:nth-child(2n),
-		.type-page:nth-child(2n) {
-			background: #1d1d1d url('../images/flare2.png') top -50px right -50px no-repeat;
 		}
 
 		.page {}            /* general article on a page style */
