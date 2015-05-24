@@ -2367,7 +2367,45 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
-/* line 1013, ../scss/breakpoints/_base.scss */
+/* line 1012, ../scss/breakpoints/_base.scss */
+.contact-info {
+  color: white;
+}
+/* line 1015, ../scss/breakpoints/_base.scss */
+.contact-info a {
+  color: #8e9ac4;
+}
+/* line 1019, ../scss/breakpoints/_base.scss */
+.contact-info a:hover,
+.contact-info a:active {
+  color: #d1d6e7;
+}
+/* line 1024, ../scss/breakpoints/_base.scss */
+.contact-info .social-icon {
+  display: inline-block;
+  margin-right: 5px;
+  width: 57px;
+  height: 57px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background-color: transparent;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+/* line 1036, ../scss/breakpoints/_base.scss */
+.contact-info .social-icon.facebook {
+  background-image: url("../images/fb-icon.png");
+}
+/* line 1040, ../scss/breakpoints/_base.scss */
+.contact-info .social-icon.twitter {
+  background-image: url("../images/twitter-icon.png");
+}
+/* line 1044, ../scss/breakpoints/_base.scss */
+.contact-info .social-icon.google {
+  background-image: url("../images/gplus-icon.png");
+}
+
+/* line 1050, ../scss/breakpoints/_base.scss */
 .copyright {
   float: right;
 }
@@ -2677,8 +2715,13 @@ you can add resource intensive styles.
     background-position: bottom 20px left, bottom 20px right;
     background-repeat: no-repeat;
   }
+  /* line 302, ../scss/breakpoints/_768up.scss */
+  .footer #inner-footer .contact-info {
+    float: left;
+    margin-left: 188px;
+  }
 
-  /* line 306, ../scss/breakpoints/_768up.scss */
+  /* line 311, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
@@ -2688,7 +2731,7 @@ you can add resource intensive styles.
   }
 
   /* end .footer-links */
-  /* line 320, ../scss/breakpoints/_768up.scss */
+  /* line 325, ../scss/breakpoints/_768up.scss */
   .copyright {
     margin-right: 172px;
   }

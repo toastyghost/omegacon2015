@@ -1009,6 +1009,43 @@ FOOTER STYLES
 
 	} /* end .footer-links */
 
+	.contact-info {
+		color: white;
+
+		a {
+			color: darken(#d1d6e7, 20%);
+		}
+
+		a:hover,
+		a:active {
+			color: #d1d6e7;
+		}
+
+		.social-icon {
+			display: inline-block;
+			margin-right: 5px;
+			width: 57px;
+			height: 57px;
+			overflow: hidden;
+			text-indent: -9999px;
+
+			background-color: transparent;
+			background-position: 0 0;
+			background-repeat: no-repeat;
+
+			&.facebook {
+				background-image: url('../images/fb-icon.png');
+			}
+
+			&.twitter {
+				background-image: url('../images/twitter-icon.png');
+			}
+
+			&.google {
+				background-image: url('../images/gplus-icon.png');
+			}
+		}
+	}
 
 	.copyright {
 		float: right;
