@@ -30,7 +30,7 @@
 
 					<p class="source-org copyright">
 						OmegaCon presented by:<br>
-						<img src="<?php bloginfo('template_directory'); ?>/library/images/end.png" alt="The End Games"><br>
+						<a href="http://theendgames.co" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/library/images/end.png" alt="The End Games"></a><br>
 						&copy; <?php echo date('Y'); ?> Omega Games LLC.<br>
 						143 Zan Road, Charlottesville VA
 					</p>
