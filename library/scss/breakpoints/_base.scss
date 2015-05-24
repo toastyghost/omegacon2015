@@ -158,7 +158,7 @@ HEADER STYLES
 
 	#logo {
 		position: relative;
-		margin: 0.75em 0;
+		margin: 0.75em 0 0;
 		text-align: center;
 
 		a {
@@ -212,6 +212,23 @@ HEADER STYLES
 					}
 				}
 			}
+		}
+	}
+
+	#social-follow-widgets {
+		margin-bottom: 20px;
+		width: 100%;
+		text-align: center;
+		height: 24px;
+
+		iframe, div {
+			vertical-align: middle !important;
+		}
+
+		.fb-like {
+			display: inline-block;
+			margin: -4px 0 0;
+			padding: 0;
 		}
 	}
 
