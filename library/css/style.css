@@ -2337,12 +2337,17 @@ SIDEBARS & ASIDES
   text-align: center;
 }
 
-/* line 959, ../scss/breakpoints/_base.scss */
+/* line 952, ../scss/breakpoints/_base.scss */
+.widget_paypal_donations form {
+  text-align: right;
+}
+
+/* line 965, ../scss/breakpoints/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
 
-/* line 976, ../scss/breakpoints/_base.scss */
+/* line 982, ../scss/breakpoints/_base.scss */
 .widget,
 .no-widgets {
   background-color: #1d1d1d;
@@ -2354,7 +2359,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 988, ../scss/breakpoints/_base.scss */
+/* line 994, ../scss/breakpoints/_base.scss */
 .footer {
   clear: both;
   background-color: #000;
@@ -2374,20 +2379,20 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
-/* line 1016, ../scss/breakpoints/_base.scss */
+/* line 1022, ../scss/breakpoints/_base.scss */
 .contact-info {
   color: white;
 }
-/* line 1019, ../scss/breakpoints/_base.scss */
+/* line 1025, ../scss/breakpoints/_base.scss */
 .contact-info a {
   color: #8e9ac4;
 }
-/* line 1023, ../scss/breakpoints/_base.scss */
+/* line 1029, ../scss/breakpoints/_base.scss */
 .contact-info a:hover,
 .contact-info a:active {
   color: #d1d6e7;
 }
-/* line 1028, ../scss/breakpoints/_base.scss */
+/* line 1034, ../scss/breakpoints/_base.scss */
 .contact-info .social-icon {
   display: inline-block;
   margin-right: 5px;
@@ -2400,19 +2405,19 @@ view.
   background-repeat: no-repeat;
   opacity: 0.8;
 }
-/* line 1042, ../scss/breakpoints/_base.scss */
+/* line 1048, ../scss/breakpoints/_base.scss */
 .contact-info .social-icon:hover, .contact-info .social-icon:active {
   opacity: 1;
 }
-/* line 1046, ../scss/breakpoints/_base.scss */
+/* line 1052, ../scss/breakpoints/_base.scss */
 .contact-info .social-icon.facebook {
   background-image: url("../images/fb-icon.png");
 }
-/* line 1050, ../scss/breakpoints/_base.scss */
+/* line 1056, ../scss/breakpoints/_base.scss */
 .contact-info .social-icon.twitter {
   background-image: url("../images/twitter-icon.png");
 }
-/* line 1054, ../scss/breakpoints/_base.scss */
+/* line 1060, ../scss/breakpoints/_base.scss */
 .contact-info .social-icon.google {
   background-image: url("../images/gplus-icon.png");
 }
