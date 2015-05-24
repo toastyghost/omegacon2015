@@ -2391,21 +2391,26 @@ view.
   background-color: transparent;
   background-position: 0 0;
   background-repeat: no-repeat;
+  opacity: 0.8;
 }
-/* line 1036, ../scss/breakpoints/_base.scss */
+/* line 1038, ../scss/breakpoints/_base.scss */
+.contact-info .social-icon:hover, .contact-info .social-icon:active {
+  opacity: 1;
+}
+/* line 1042, ../scss/breakpoints/_base.scss */
 .contact-info .social-icon.facebook {
   background-image: url("../images/fb-icon.png");
 }
-/* line 1040, ../scss/breakpoints/_base.scss */
+/* line 1046, ../scss/breakpoints/_base.scss */
 .contact-info .social-icon.twitter {
   background-image: url("../images/twitter-icon.png");
 }
-/* line 1044, ../scss/breakpoints/_base.scss */
+/* line 1050, ../scss/breakpoints/_base.scss */
 .contact-info .social-icon.google {
   background-image: url("../images/gplus-icon.png");
 }
 
-/* line 1050, ../scss/breakpoints/_base.scss */
+/* line 1056, ../scss/breakpoints/_base.scss */
 .copyright {
   float: right;
 }

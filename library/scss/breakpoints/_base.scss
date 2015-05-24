@@ -1033,6 +1033,12 @@ FOOTER STYLES
 			background-position: 0 0;
 			background-repeat: no-repeat;
 
+			opacity: 0.8;
+
+			&:hover, &:active {
+				opacity: 1;
+			}
+
 			&.facebook {
 				background-image: url('../images/fb-icon.png');
 			}
