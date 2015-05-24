@@ -462,13 +462,14 @@ mobile. Make sure to double check these!
 .footer #inner-footer .contact-info {
   float: left;
   margin-left: 188px;
+  text-align: left;
 }
-/* line 308, ../scss/breakpoints/_768up.scss */
+/* line 309, ../scss/breakpoints/_768up.scss */
 .footer .copyright {
   float: right;
 }
 
-/* line 315, ../scss/breakpoints/_768up.scss */
+/* line 316, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
@@ -478,9 +479,10 @@ mobile. Make sure to double check these!
 }
 
 /* end .footer-links */
-/* line 329, ../scss/breakpoints/_768up.scss */
+/* line 330, ../scss/breakpoints/_768up.scss */
 .copyright {
   margin-right: 172px;
+  text-align: left;
 }
 
 /******************************************************************
