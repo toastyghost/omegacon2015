@@ -69,12 +69,12 @@
 						
 						<div id="whenwhere">
 							<div id="dates">
-								August<br>
-								28-30, 2015<br>
+								August 28-30, 2015<br>
 							</div>
 							
 							<div id="venue">
 								John Paul Jones Arena<br>
+								295 Massie Road<br>
 								Charlottesville, VA
 							</div>
 							

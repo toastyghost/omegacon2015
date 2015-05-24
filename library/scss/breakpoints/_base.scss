@@ -176,8 +176,9 @@ HEADER STYLES
 			color: #fff;
 
 			#dates {
-				font-size: 1.45rem;
+				font-size: 1.25rem;
 				line-height: 2.25rem;
+				word-spacing: -12px;
 			}
 
 			#venue {
@@ -988,6 +989,7 @@ FOOTER STYLES
 	color: $light-gray;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
+	text-align: center;
 }
 
 	/*
@@ -1051,8 +1053,4 @@ FOOTER STYLES
 				background-image: url('../images/gplus-icon.png');
 			}
 		}
-	}
-
-	.copyright {
-		float: right;
 	}

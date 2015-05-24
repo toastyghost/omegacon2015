@@ -463,8 +463,12 @@ mobile. Make sure to double check these!
   float: left;
   margin-left: 188px;
 }
+/* line 308, ../scss/breakpoints/_768up.scss */
+.footer .copyright {
+  float: right;
+}
 
-/* line 311, ../scss/breakpoints/_768up.scss */
+/* line 315, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
@@ -474,7 +478,7 @@ mobile. Make sure to double check these!
 }
 
 /* end .footer-links */
-/* line 325, ../scss/breakpoints/_768up.scss */
+/* line 329, ../scss/breakpoints/_768up.scss */
 .copyright {
   margin-right: 172px;
 }
