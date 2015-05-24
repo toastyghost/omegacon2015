@@ -138,34 +138,6 @@ NAVIGATION STYLES
 
 } /* end .nav */
 
-/* MORE POSTS/PAGES STUFF FOR LARGER SCREENS */
-.post,
-.type-page,
-.widget,
-.no-widgets {
-	font-family: 'Open Sans', sans-serif;
-	color: white;
-	text-align: left;
-
-	a {
-		color: darken(#d1d6e7, 20%);
-	}
-
-	a:hover,
-	a:active {
-		color: #d1d6e7;
-	}
-
-	h1,h2,h3,h4,h5,h6 {
-		font-weight: bold;
-	}
-
-	.widgettitle {
-		margin: 0;
-		font-size: 28px;
-	}
-}
-
 .article-header {
 	margin-left: 67px;
 }
@@ -345,3 +317,6 @@ mobile. Make sure to double check these!
 	}
 } /* end .footer-links */
 
+.copyright {
+	margin-right: 172px;
+}

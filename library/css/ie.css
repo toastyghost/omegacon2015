@@ -229,23 +229,23 @@ NAVIGATION STYLES
 POSTS & CONTENT STYLES
 *********************/
 /* entry content */
-/* line 83, ../scss/breakpoints/_481up.scss */
+/* line 84, ../scss/breakpoints/_481up.scss */
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-/* line 87, ../scss/breakpoints/_481up.scss */
+/* line 88, ../scss/breakpoints/_481up.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
 }
-/* line 92, ../scss/breakpoints/_481up.scss */
+/* line 93, ../scss/breakpoints/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-/* line 97, ../scss/breakpoints/_481up.scss */
+/* line 98, ../scss/breakpoints/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
@@ -254,6 +254,11 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
+/* line 107, ../scss/breakpoints/_481up.scss */
+.widget_smartcountdown {
+  text-align: left;
+}
+
 /*********************
 FOOTER STYLES
 *********************/
@@ -373,82 +378,23 @@ NAVIGATION STYLES
 }
 
 /* end .nav */
-/* MORE POSTS/PAGES STUFF FOR LARGER SCREENS */
-/* line 142, ../scss/breakpoints/_768up.scss */
-.post,
-.type-page,
-.widget,
-.no-widgets {
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-  text-align: left;
-}
-/* line 150, ../scss/breakpoints/_768up.scss */
-.post a,
-.type-page a,
-.widget a,
-.no-widgets a {
-  color: #8e9ac4;
-}
-/* line 154, ../scss/breakpoints/_768up.scss */
-.post a:hover,
-.post a:active,
-.type-page a:hover,
-.type-page a:active,
-.widget a:hover,
-.widget a:active,
-.no-widgets a:hover,
-.no-widgets a:active {
-  color: #d1d6e7;
-}
-/* line 159, ../scss/breakpoints/_768up.scss */
-.post h1, .post h2, .post h3, .post h4, .post h5, .post h6,
-.type-page h1,
-.type-page h2,
-.type-page h3,
-.type-page h4,
-.type-page h5,
-.type-page h6,
-.widget h1,
-.widget h2,
-.widget h3,
-.widget h4,
-.widget h5,
-.widget h6,
-.no-widgets h1,
-.no-widgets h2,
-.no-widgets h3,
-.no-widgets h4,
-.no-widgets h5,
-.no-widgets h6 {
-  font-weight: bold;
-}
-/* line 163, ../scss/breakpoints/_768up.scss */
-.post .widgettitle,
-.type-page .widgettitle,
-.widget .widgettitle,
-.no-widgets .widgettitle {
-  margin: 0;
-  font-size: 28px;
-}
-
-/* line 169, ../scss/breakpoints/_768up.scss */
+/* line 141, ../scss/breakpoints/_768up.scss */
 .article-header {
   margin-left: 67px;
 }
 
-/* line 173, ../scss/breakpoints/_768up.scss */
+/* line 145, ../scss/breakpoints/_768up.scss */
 .byline {
   display: none;
 }
 
-/* line 177, ../scss/breakpoints/_768up.scss */
+/* line 149, ../scss/breakpoints/_768up.scss */
 .post:nth-child(1n),
 .type-page:nth-child(1n) {
   background: #1d1d1d url("../images/flare1.png") top 10px left 10px no-repeat;
 }
 
-/* line 182, ../scss/breakpoints/_768up.scss */
+/* line 154, ../scss/breakpoints/_768up.scss */
 .post:nth-child(2n),
 .type-page:nth-child(2n) {
   background: #1d1d1d url("../images/flare2.png") top 10px right 10px no-repeat;
@@ -457,24 +403,24 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 193, ../scss/breakpoints/_768up.scss */
+/* line 165, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 198, ../scss/breakpoints/_768up.scss */
+/* line 170, ../scss/breakpoints/_768up.scss */
 .widget {
   margin: 0;
   padding: 6px 12px 14px;
   margin-bottom: 14px;
 }
-/* line 204, ../scss/breakpoints/_768up.scss */
+/* line 176, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 212, ../scss/breakpoints/_768up.scss */
+/* line 184, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -499,13 +445,13 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 319, ../scss/breakpoints/_768up.scss */
+/* line 291, ../scss/breakpoints/_768up.scss */
 .footer {
   padding-top: 0;
   background: url("../images/checkerboard.png") bottom center no-repeat;
   background-size: 100% 106px;
 }
-/* line 324, ../scss/breakpoints/_768up.scss */
+/* line 296, ../scss/breakpoints/_768up.scss */
 .footer #inner-footer {
   min-height: 280px;
   background-image: url("../images/AlLA.png"), url("../images/MegLA.png");
@@ -513,7 +459,7 @@ mobile. Make sure to double check these!
   background-repeat: no-repeat;
 }
 
-/* line 334, ../scss/breakpoints/_768up.scss */
+/* line 306, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
@@ -523,6 +469,11 @@ mobile. Make sure to double check these!
 }
 
 /* end .footer-links */
+/* line 320, ../scss/breakpoints/_768up.scss */
+.copyright {
+  margin-right: 172px;
+}
+
 /******************************************************************
 Site Name:
 Author:

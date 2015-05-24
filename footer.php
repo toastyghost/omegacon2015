@@ -18,7 +18,12 @@
 						)); ?>
 					</nav>
 
-					<!--<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>-->
+					<p class="source-org copyright">
+						OmegaCon presented by:<br>
+						<img src="<?php bloginfo('template_directory'); ?>/library/images/end.png" alt="The End Games"><br>
+						&copy; <?php echo date('Y'); ?> Omega Games LLC.<br>
+						143 Zan Road, Charlottesville VA
+					</p>
 
 				</div>
 

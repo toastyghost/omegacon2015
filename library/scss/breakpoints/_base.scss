@@ -157,6 +157,7 @@ HEADER STYLES
 }
 
 	#logo {
+		position: relative;
 		margin: 0.75em 0;
 		text-align: center;
 
@@ -171,7 +172,6 @@ HEADER STYLES
 		#whenwhere {
 			display: block;
 			font-family: 'Press Start 2P';
-			//line-height: 0.7em;
 			letter-spacing: 0;
 			color: #fff;
 
@@ -328,7 +328,7 @@ POSTS & CONTENT STYLES
 }
 
 		.hentry {
-			background-color: $white;
+			background-color: #1d1d1d;
 			border-radius: 3px;
 			margin-bottom: 1.5em;
 			border: 1px solid $border-color;
@@ -897,6 +897,37 @@ COMMENT FORM STYLES
 SIDEBARS & ASIDES
 *********************/
 
+.post,
+.type-page,
+.widget,
+.no-widgets {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+
+	a {
+		color: darken(#d1d6e7, 20%);
+	}
+
+	a:hover,
+	a:active {
+		color: #d1d6e7;
+	}
+
+	h1,h2,h3,h4,h5,h6 {
+		font-weight: bold;
+	}
+
+	.widgettitle {
+		margin: 0;
+		font-size: 28px;
+		text-align: left;
+	}
+}
+
+.widget_smartcountdown {
+	text-align: center;
+}
+
 .sidebar {}
 
 	.widgettitle {}
@@ -926,7 +957,6 @@ SIDEBARS & ASIDES
 	.no-widgets {
 		background-color: #1d1d1d;
 		padding: 1.5em;
-		text-align: center;
 		border-radius: 2px;
 		margin-bottom: 1.5em;
 	}
@@ -939,6 +969,8 @@ FOOTER STYLES
 	clear: both;
 	background-color: $black;
 	color: $light-gray;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
 }
 
 	/*
@@ -961,4 +993,6 @@ FOOTER STYLES
 	} /* end .footer-links */
 
 
-	.copyright {}
+	.copyright {
+		float: right;
+	}
