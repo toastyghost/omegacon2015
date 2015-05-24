@@ -954,6 +954,16 @@ SIDEBARS & ASIDES
 	}
 }
 
+.widget_search {
+	label {
+		display: none;
+	}
+
+	input {
+		width: 90%;
+	}
+}
+
 .sidebar {}
 
 	.widgettitle {}
