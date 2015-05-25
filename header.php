@@ -69,7 +69,9 @@
 							
 							<div id="cta-menu">
 								<a id="register-cta" class="cta-link" href="/register">Register</a>
-								<a id="volunteer-cta" class="cta-link" href="/volunteer">Volunteer</a>
+								<a id="volunteer-cta" class="cta-link" href="/volunteer">Volunteer</a><br>
+								<a id="vendor-cta" class="cta-link" href="/vendors">Vendors</a>
+								<a id="sponsor-cta" class="cta-link" href="/sponsors">Sponsors</a>
 							</div>
 						</div>
 					</div>

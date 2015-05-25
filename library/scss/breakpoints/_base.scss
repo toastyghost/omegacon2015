@@ -188,6 +188,7 @@ HEADER STYLES
 
 			#cta-menu {
 				font-size: 12px;
+				line-height: 37px;
 
 				.cta-link {
 					padding: 7px;
@@ -209,6 +210,24 @@ HEADER STYLES
 						&:hover,
 						&:active {
 							background-color: lighten(#293f92, 9%);
+						}
+					}
+
+					&#vendor-cta {
+						background-color: #098374;
+
+						&:hover,
+						&:active {
+							background-color: lighten(#098374, 9%);
+						}
+					}
+
+					&#sponsor-cta {
+						background-color: darken(#d7bf27, 18%);
+
+						&:hover,
+						&:active {
+							background-color: darken(#d7bf27, 9%);
 						}
 					}
 				}
