@@ -2462,6 +2462,11 @@ view.
   background-image: url("../images/gplus-icon.png");
 }
 
+/* line 1107, ../scss/breakpoints/_base.scss */
+#em-booking {
+  color: black;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
