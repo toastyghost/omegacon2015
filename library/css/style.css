@@ -2467,6 +2467,11 @@ view.
   color: black;
 }
 
+/* line 1111, ../scss/breakpoints/_base.scss */
+.em-booking-form-details {
+  color: white;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's

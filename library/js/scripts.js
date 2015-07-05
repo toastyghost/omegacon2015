@@ -127,6 +127,8 @@ setInterval(function() {
 
 
 
+var $ = jQuery;
+
 if ($('#post-2993').length > 0) {
   $('p:contains("Date/Time"), p:contains("Categories")').remove();
   $('i:contains("Map Unavailable")').closest('div').remove();
