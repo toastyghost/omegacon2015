@@ -2469,7 +2469,7 @@ view.
 
 /* line 1111, ../scss/breakpoints/_base.scss */
 .em-booking-form-details {
-  color: white;
+  color: white !important;
 }
 
 /*********************
