@@ -2474,7 +2474,7 @@ view.
 
 /* line 1115, ../scss/breakpoints/_base.scss */
 .tablepress th {
-  background-color: #049cdb;
+  background-color: #049cdb !important;
 }
 
 /* line 1119, ../scss/breakpoints/_base.scss */
