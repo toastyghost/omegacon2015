@@ -2473,7 +2473,7 @@ view.
 }
 
 /* line 1115, ../scss/breakpoints/_base.scss */
-.tablepress .sorting {
+.tablepress th {
   background-color: #049cdb;
 }
 
