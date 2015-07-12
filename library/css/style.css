@@ -2472,6 +2472,16 @@ view.
   color: white !important;
 }
 
+/* line 1115, ../scss/breakpoints/_base.scss */
+.tablepress .sorting {
+  background-color: #049cdb;
+}
+
+/* line 1119, ../scss/breakpoints/_base.scss */
+.tablepress td {
+  color: #1d1d1d;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
