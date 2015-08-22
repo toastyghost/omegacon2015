@@ -2837,6 +2837,11 @@ you can add resource intensive styles.
   .wrap {
     width: 1040px;
   }
+
+  /* line 23, ../scss/breakpoints/_1030up.scss */
+  .page-id-3210 .wrap {
+    width: 1108px;
+  }
 }
 /*********************
 LARGE VIEWING SIZE
